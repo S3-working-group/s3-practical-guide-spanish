@@ -1,0 +1,257 @@
+---
+#this is the database for the glossary.
+#each entry has a key that is used to reference it in the source files
+#{define:driver}
+#and some translatable strings
+#- name: the name of the glossary entry
+#- definition: the definition of the term in the form "a **x** is …"
+#- glossary: glossary text for a term
+#- note: a note that will be added as a second paragraph to the glossary after the definition
+title: Glosario
+continued: (…)
+terms:
+  accountability:
+    name: Responsabilidad (principio)
+    definition:
+    glossary: "**Responde cuando se necesita algo, haz lo que has acordado hacer y acepta tu parte de responsabilidad por el curso de la organización,** para que lo que necesita hacerse se haga, nada se pase por alto y todo el mundo haga lo que pueda para contribuir a la efectividad e integridad de la organización."
+  account:
+    name: Rendir cuentas por (v.)
+    glossary: para asumir la responsabilidad de algo.
+  agreement:
+    name: Acuerdo
+    definition: Un **acuerdo** es acordado según pautas, procesos, protocolos o políticas diseñadas para guiar el flujo de valor.
+    glossary: Una pauta, proceso, protocolo o política que ha sido acordado y se ha diseñado para guiar el flujo de valor.
+  alignment:
+    name: Alineamiento
+    glossary: El proceso de armonizar las acciones de todas las partes de una organización con los objetivos de la organización.
+  backlog:
+    name: Agenda pendiente
+    definition: Una **agenda pendiente** (lista de tareas pendientes) es una lista (a menudo priorizada) de elementos de trabajo (entregables) o drivers incompletos que necesitan ser abordados.
+    glossary: Una lista (a menudo priorizada) de elementos de trabajo (entregables) o drivers incompletos que necesitan ser abordados.
+  chosen-values:
+    name: Valores Escogidos
+    glossary: Un conjunto de principios que un equipo (o una organización) ha elegido adoptar colectivamente para guiar su comportamiento en el contexto de su colaboración.
+  circle:
+    name: Círculo
+    definition: Un **círculo** es un equipo autogobernado y semiautónomo de personas equivalentes que colaboran para dar cuenta de un dominio.
+    glossary: Un equipo autogobernado y semiautónomo de personas equivalentes que colaboran para dar cuenta de un dominio.
+  check-in:
+    name: Check in
+    definition:
+    glossary: Una expresión breve donde compartes algo que está presente para ti y cómo te encuentras, revelando pensamientos, sentimientos, distracciones o necesidades.
+  complexity:
+    name: Complejidad
+    glossary: Un entorno en el que las incógnitas son desconocidas, la causa y el efecto sólo pueden entenderse en retrospectiva, y las acciones conducen a cambios impredecibles. [Snowden y Boone]
+  concern:
+    name: Preocupación
+    definition: Una **preocupación** es una suposición que no puede (al menos por ahora) ser respaldada por el razonamiento o la evidencia suficiente para demostrar su relevancia o validez a quienes la están considerando.
+    glossary: Una suposición que no puede (al menos por ahora) ser respaldada por el razonamiento o la evidencia suficiente para demostrar su relevancia o validez a quienes la están considerando.
+  consent:
+    name: Consentimiento (principio)
+    definition:
+    glossary: "**Plantea, busca y resuelve objeciones a decisiones y acciones,** para que puedas reducir el potencial de consecuencias indeseables y descubrir formas valiosas de mejorar."
+  constituent:
+    name: Constituyente
+    definition:
+    glossary: Un equipo (p. ej. un círculo, grupo, departamento, sucursal, proyecto u organización) que delega autoridad a un representante para que actúe en su nombre en otro equipo u organizaciones.
+  continuous-improvement:
+    name: Mejora continua (principio)
+    definition:
+    glossary: "**Revisa regularmente el resultado de lo que estás haciendo, y luego haz mejoras incrementales de lo que haces y cómo lo haces basándote en lo que aprendes**, para que puedas adaptarte a cambios cuando sea necesario, y mantener o mejorar la efectividad con el tiempo."
+  coordination:
+    name: Coordinación
+    definition:
+    glossary: El proceso de habilitar a individuos o equipos para que colaboren efectivamente en diferentes dominios a fin de lograr objetivos compartidos.
+  delegatee:
+    name: Persona(s) delegada(s)
+    glossary: Un individuo o grupo que acepta la responsabilidad de un dominio que le ha sido delegado, convirtiéndose en un guardián de rol o un equipo.
+  delegation:
+    name: Delegación
+    definition: La delegación es la concesión de autoridad de una parte (la persona delegadora) a otra parte (la persona delegada) para dar cuenta de un dominio (es decir, hacer ciertas cosas y/o tomar ciertas decisiones), sobre el cual la persona delegadora mantiene la responsabilidad general.
+    glossary: La concesión de autoridad de una parte (la persona delegadora) a otra parte (la persona delegada) para dar cuenta de un dominio (es decir, hacer ciertas cosas y/o tomar ciertas decisiones), sobre el cual la persona delegadora mantiene la responsabilidad general..
+  delegator:
+    name: Persona delegadora
+    glossary: Un individuo o grupo que delega la responsabilidad de un dominio a otro(s).
+  deliverable:
+    name: Entregable
+    definition: Un **entregable** es un producto, servicio, componente o material proporcionado en respuesta a un driver organizacional.
+    glossary: Un producto, servicio, componente o material proporcionado en respuesta a un conductor organizacional.
+  domain:
+    name: Dominio
+    definition: Un **dominio** es un área específica de influencia, actividad y toma de decisiones dentro de una organización.
+    glossary: Un área específica de influencia, actividad y toma de decisiones dentro de una organización.
+  driver:
+    name: Driver
+    definition: Un **driver** es el motivo de una persona o un grupo para responder a una situación específica.
+    glossary: El motivo de una persona o de un grupo para responder a una situación específica.
+  effectiveness:
+    name: Efectividad (principio)
+    definition:
+    glossary: "**Dedica tiempo solo a lo que te acerca a alcanzar los objetivos generales de tu organización**, para que puedas hacer el mejor uso de tu tiempo, energía y recursos limitados."
+  empiricism:
+    name: Empirismo (principio)
+    definition:
+    glossary: "**Pon a prueba todas las suposiciones en las que te basas a través de experimentos y revisión continua**, para poder aprender rápido, que las cosas tengan sentido y navegar la complejidad de la manera más efectiva posible."
+  equivalence:
+    name: Equivalencia (principio)
+    definition:
+    glossary: "**Involucra a las personas en la toma de decisiones que les afectan y su evolución**, para que puedas aumentar el compromiso y la responsabilidad, y hacer uso de la inteligencia distribuida con vistas a lograr tus objetivos y evolucionarlos."
+  evolve:
+    name: Evoluciona (v.)
+    glossary: para desarrollar gradualmente.
+  flow-of-value:
+    name: Flujo de Valor
+    glossary: Entregables viajando a través de una organización hacia clientes u otras partes interesadas.
+  governance:
+    name: Gobernanza
+    definition: "La **gobernanza** en una organización (o un dominio dentro de ella) es el proceso de establecer objetivos y tomar y evolucionar decisiones que orientan a la gente hacia el logro de esos objetivos."
+    glossary: El proceso de establecer objetivos y tomar y evolucionar decisiones que orientan a las personas hacia la consecución de dichos objetivos.
+  governance-backlog:
+    name: Agenda pendiente de gobernanza
+    definition: Una **agenda pendiente de gobernanza** es una lista visible y priorizada de elementos (drivers) que están relacionados con gobernar un dominio y requieren atención.
+    glossary: Una lista visible y priorizada de elementos (drivers) que están relacionados con gobernar un dominio y requieren atención.
+  intended-outcome:
+    name: Resultado esperado
+    definition:
+    glossary: El resultado esperado de un acuerdo, acción, proyecto o estrategia.
+  helping-team:
+    name: Equipo de ayuda
+    definition:
+    glossary: Un equipo de personas equivalentes con el mandato de llevar a cabo un conjunto específico de requisitos.
+  key-responsibilities:
+    name: Responsabilidades clave
+    glossary: Trabajo esencial y toma de decisiones requeridas en el contexto de un dominio.
+  logbook:
+    name: Bitácora
+    definition:
+    glossary: Un sistema (digital) para almacenar toda la información relevante en la administración de una organización.
+  metric:
+    name: Métrica
+    definition: Una **métrica** es un indicador cuantificable utilizado para seguir y valorar el progreso, evaluar los resultados y determinar el éxito.
+    glossary: Un indicador cuantificable utilizado para seguir y valorar el progreso, evaluar los resultados y determinar el éxito
+  need:
+    name: Necesidad
+    definition: Una **necesidad** es la falta de algo deseado o considerado necesario (un requerimiento).
+    glossary: La falta de algo deseado o considerado necesario (un requerimiento).
+  objection:
+    name: Objeción
+    definition: Una **objeción** es un argumento, relacionado con una propuesta, acuerdo, actividad o el estado actual de las cosas, que revela consecuencias o riesgos que preferirías evitar, o muestra maneras valiosas de mejorar.
+    glossary: Un argumento, relacionado con una propuesta, acuerdo, actividad o el estado actual de las cosas, que revela consecuencias o riesgos que preferirías evitar, o muestra maneras valiosas de mejorar.
+  objective:
+    name: Objetivo
+    definition:
+    glossary: Un resultado (específico) que una persona o equipo u organización quiere alcanzar; un objetivo o una meta.
+  open-team:
+    name: Equipo abierto
+    definition: Un **equipo abierto** es un grupo de personas que son invitadas a contribuir al trabajo y a la gobernanza realizada en un dominio cuando pueden.
+    glossary: Un grupo de personas que son invitadas a contribuir al trabajo y la gobernanza que se hace en un dominio cuando puedan.
+  operations:
+    name: Operaciones
+    definition: "**Operaciones** es hacer el trabajo y organizar actividades diarias dentro de las limitaciones definidas a través de la gobernanza."
+    glossary: Hacer el trabajo y organizar actividades diarias dentro de las limitaciones definidas a través de la gobernanza.
+  operations-backlog:
+    name: Operaciones Pendientes
+    definition: Un **registro pendiente de operaciones** es una lista visible de elementos de trabajo (generalmente prioritarios) incompletos (entregables).
+    glossary: Una lista visible de elementos(normalmente priorizados) de trabajo incompleto (entregable).
+  organization:
+    name: Organización
+    definition:
+    glossary: Un grupo de personas que colaboran hacia un motivante (u objetivo) compartido. A menudo una organización se subdivide en varios equipos.
+  organizational-driver:
+    name: Motivante de la organización
+    definition:
+    glossary: Un motivante es la razón de una persona o grupo para responder a una situación específica. Un motivante es considerado un **motivante organizacional** si responder a este ayudaría a la organización generar valor, eliminar desperdicio o evitar consecuencias no deseadas.
+  pattern:
+    name: Patrón
+    definition: Un **patrón** es un proceso, práctica o pauta que sirve como una plantilla para responder con éxito a un tipo específico de desafío u oportunidad. 
+    glossary: Un proceso, práctica o pauta que sirve como una plantilla para responder con éxito a un tipo específico de desafío u oportunidad. 
+  peer-domain:
+    name: Dominio de pares
+    definition:
+    glossary: Dos dominios de pares están contenidos dentro del mismo superdominio inmediato, y pueden estar superpuestos.
+  primary-driver:
+    name: Driver principal
+    definition:
+    glossary: El motivante principal de un dominio es el principal motivante al que responden las personas que tienen agencia en ese dominio.
+  principle:
+    name: Principio
+    definition: Un **principio** es una idea básica o regla que guía el comportamiento, o explica o controla cómo algo sucede o funciona.
+    glossary: Una idea básica o regla que guía el comportamiento, o explica o controla cómo algo sucede o funciona.
+  role:
+    name: Rol
+    definition:
+    glossary: Un dominio que se delega a un individuo, quien luego se convierte en el encargado de roles.
+  role-keeper:
+    name: Encargado de Roles
+    definition:
+    glossary: Un individuo que asume la responsabilidad de un rol.
+  scm:
+    name: Método sociocrático de organización en círculo (MCS)
+    glossary: Un método de gobierno igualitario para las organizaciones basado en una mentalidad sociocrática, desarrollado en los Países Bajos por Gerard Endenburg.
+  self-governance:
+    name: Autogobierno
+    definition:
+    glossary: Gente que se gobierna a sí misma dentro de las limitaciones de un dominio.
+  self-organization:
+    name: Auto-Organización
+    definition:
+    glossary: Cualquier actividad o proceso mediante el cual las personas organizan el trabajo. La auto-organización ocurre dentro de las limitaciones de un dominio, pero sin la influencia directa de los agentes externos. En cualquier organización o equipo, la auto-organización coexiste con influencia externa (por ejemplo, objeciones externas o decisiones de gobernanza que afectan al dominio).
+  semi-autonomy:
+    name: Semiautonomía
+    definition:
+    glossary: La autonomía de las personas para decidir por sí mismas cómo crear valor, dentro de las limitaciones de su dominio, y por objeciones presentadas por el delegado, los representantes u otros.
+  social-technology:
+    name: Tecnología Social
+    definition: Cualquier proceso, técnica, método, habilidad o cualquier otro enfoque que las personas puedan utilizar para influir en los sistemas sociales — organizaciones, sociedades, comunidades, etc. — apoyar la consecución de objetivos compartidos y orientar la interacción y el intercambio significativos.
+    glossary: La tecnología social es cualquier proceso, técnica, método, habilidad o cualquier otro enfoque que la gente pueda utilizar para influir en los sistemas sociales — organizaciones, sociedades, comunidades, etc. — apoyar la consecución de objetivos compartidos y orientar la interacción y el intercambio significativos.
+  sociocracy:
+    name: Sociocracia
+    glossary: Un enfoque para organizar juntos donde las personas afectadas por las decisiones pueden influir en las mismas a partir de la base de razones para hacerlo.
+  strategy:
+    name: Estrategia
+    definition: Una **estrategia** es un enfoque de alto nivel sobre cómo las personas crearán valor para dar cuenta de un dominio con éxito.
+    glossary: Un enfoque de alto nivel sobre cómo las personas crearán valor para dar cuenta de un dominio con éxito.
+  subdomain:
+    name: Subdominio
+    definition:
+    glossary: Un dominio que está completamente contenido dentro de otro dominio.
+  subdriver:
+    name: Submotivante
+    definition:
+    glossary: Un submotivante surge como consecuencia de responder a otro motivante (el supermotivante) y es esencial para responder eficazmente al supermotivante.
+  superdriver:
+    name: Supermotivante
+    definition:
+    glossary: ver submotivante
+  superdomain:
+    name: Supermotivante
+    definition:
+    glossary: Un dominio que está completamente contenido dentro de otro dominio.
+  team:
+    name: Equipo
+    definition:
+    glossary: Un grupo de personas que colaboran hacia un motivador (u objetivo). Normalmente, un equipo es parte de una organización, o se forma como una colaboración de varias organizaciones.
+  tension:
+    name: Tensión
+    definition:
+    glossary: Una experiencia personal; un síntoma de disonancia entre la percepción de un individuo de una situación y sus expectativas o preferencias.
+  timebox:
+    name: Tiempo asignado
+    definition: Un **tiempo asignado** es un período fijo de tiempo dedicado a una actividad específica (que no necesariamente termina al final del tiempo asignado).
+    glossary: Un período fijo de tiempo dedicado a una actividad específica (que no necesariamente termina al final del tiempo asignado).
+  transparency:
+    name: Transparencia (principio)
+    definition:
+    glossary: "**Registra toda la información que sea valiosa para la organización y ponla a disposición de todas las personas en la organización, a menos que exista una razón para la confidencialidad**, a fin de que todos tengan la información que necesitan para entender cómo hacer su trabajo de una manera que contribuya de modo más efectivo al conjunto."
+  value:
+    name: Valor
+    definition: "**Valor** es la importancia, beneficio o utilidad de alguna cosa con relación a un driver."
+    glossary: La importancia, el valor o la utilidad de algo en relación con un driver. También "un principio de cierta importancia que guía el comportamiento" (se utiliza principalmente como plural, "valores", o "valores organizacionales").
+  values:
+    name: Valores
+    definition: "Los **valores** son principios valorados que guían el comportamiento. Los valores definen el campo de acción y las restricciones éticas."
+    glossary: "Principios valorados que guían el comportamiento. No confundir con \"valor\" (singular) en el contexto de un driver."
+  waste:
+    name: Desperdicio
+    definition: "**Desperdicio** es cualquier cosa innecesaria - o que obstaculiza el camino - para responder de forma (más) efectiva a un driver."
+    glossary: Cualquier cosa innecesaria - o que obstaculiza el camino - para responder de forma (más) efectiva a un driver.

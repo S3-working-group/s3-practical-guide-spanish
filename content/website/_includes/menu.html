@@ -1,0 +1,28 @@
+<!-- Mobile menu toggle button (hamburger/x icon) -->
+<input id="main-menu-state" type="checkbox" />
+<label class="main-menu-btn" for="main-menu-state">
+  <span class="main-menu-btn-icon"></span> Cambiar la visibilidad del menú principal
+</label>
+<!-- the actual menu -->
+<ul id="main-menu" class="sm sm-mint sm-vertical">
+  <li><a href="index.html">Inicio</a></li>
+  
+  {{html-menu}}
+  
+  <li><a href="#">Enlaces directos</a>
+    <ul class="mega-menu">
+      <li><a href="\{\{ 'index.html' | relative_url \}\}">Página principal</a></li>
+      <li><a href="\{\{ 'glossary.html' | relative_url \}\}">Glosario</a></li>
+      <li><a href="\{\{ 'changelog.html' | relative_url \}\}"></a></li>
+      <li><a href="\{\{ 'pattern-index.html' | relative_url \}\}" title="Un índice en orden alfabético de todos los patrones."><img src="\{\{ 'icons/list-ul.svg' | relative_url \}\}" class="icon" alt="site index" />&nbsp;Indice de Patrones</a></li>
+      <li><a href="\{\{ 'map.html' | relative_url \}\}" title="Usa el mapa de patrones para saltar a otro patrón."><img src="\{\{ 'icons/map.svg' | relative_url \}\}" class="icon" alt="site map" />&nbsp;Mapa</a></li>
+      <li><span id="annotate-span"><a href="" id="annotate-link" title="Anota esta página con hypothes.is. Haz clic aquí, espera a que la página se vuelva a cargar, luego puedes resaltar texto y añadir comentarios públicos. Necesitarás configurar una cuenta gratuita en hypothes.is."><img src="\{\{ 'icons/comments-alt.svg' | relative_url \}\}" class="icon" alt="annotate page" />&nbsp;Anota la página</a></span></li>
+      <li><a href="https://sociocracy30.org/resources/#se-practical-guide">Descargas</a></li>
+      <li><a href="https://sociocracy30.org">Sitio de Sociocracia 3.0</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+
+

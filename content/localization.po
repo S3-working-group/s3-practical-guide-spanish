@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: sociocracy-30\n"
+"X-Crowdin-Project-ID: 88253\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: localization.pot\n"
+"X-Crowdin-File-ID: 947\n"
+"Project-Id-Version: sociocracy-30\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"PO-Revision-Date: 2024-07-04 13:32\n"
+
+# continuation marker for follow-up slides
+msgid "(…)"
+msgstr "(…)"
+
+# patterns (plural)
+msgid "Patterns"
+msgstr "Patrones"
+
+# pattern (singular)
+msgid "Pattern"
+msgstr "Patrón"
+
+# site title for practical guide microsite
+msgid "A Practical Guide to Sociocracy 3.0"
+msgstr "Una guía práctica para la Sociocracia 3.0"
+
+# title for ebook
+msgid "A Practical Guide for Evolving Agile and Resilient Organizations with Sociocracy 3.0"
+msgstr "Guía práctica para evolucionar organizaciones agile y resilientes con Sociocracia 3.0"
+
+# subtitle for ebook
+msgid "70+ Powerful Practices to Help You and Your Organization Thrive"
+msgstr "Más de 70 Prácticas poderosas para ayudarte a ti y a tu organización a crecer y desarrollarse"
+
+# SE 2019
+msgid "Supporter Edition 2019"
+msgstr "Edición de Apoyo 2019"
+
+# site descriptions for practical guide microsite
+msgid "The official description of Sociocracy 3.0 - All patterns, the Seven Principles and key concepts. Maintained by Bernhard Bockelbrink, James Priest and Liliana David."
+msgstr "La descripción oficial de Sociocracia 3.0 - Todos los patrones, los Siete Principios y conceptos clave. Mantenida por Bernhard Bockelbrink, James Priest y Liliana David."
+
+# Headline for page "Concepts and Principles" in website
+msgid "Concepts and Principles"
+msgstr "Conceptos y principios"
+
+# Headline for Section "Introduction" (e.g. in ebook)
+msgid "Introduction"
+msgstr "Introducción"
+
+# Headline for Section "The Patterns" (e.g. in ebook)
+msgid "The Patterns"
+msgstr "Los Patrones"
+
+# Headline for Section "Appendix" (e.g. in ebook)
+msgid "Appendix"
+msgstr "Apéndice"
+
+# Pattern prefix
+msgid " Pattern %(chapter)s.%(section)s:"
+msgstr " Patrón %(chapter)s.%(section)s:"
+
+# Filename
+msgid "S3-practical-guide"
+msgstr "S3-guía-práctica"
+
+# Title for reveal.js slide deck
+msgid "S3 - A Practical Guide"
+msgstr "S3 - Una Guía Práctica"
+
+# Pattern-Index in PDF
+msgid "Pattern-Index"
+msgstr "Indice de Patrones"
+
+# Title for Table of Contents in PDF
+msgid "Contents"
+msgstr "Contenidos"
+
+# (mdtools) webpage bottomnavigation: next page in reading order
+msgid "Read next:"
+msgstr "Leer a continuación:"
+
+# (mdtools): webpage bottomnavigation: previous page in reading order
+msgid "Back to:"
+msgstr "Volver a:"
+
+# (mdtools): webpage bottom navigation
+msgid "Up:"
+msgstr "Arriba:"
+
+msgid ""
+msgstr ""
+""
+
