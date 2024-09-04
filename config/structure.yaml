@@ -21,7 +21,7 @@ parts:
        - principle-accountability
   - id: making-sense-of-organizations
     parts:
-      - drivers-and-requirements
+      - driver
       - domain
       - objection
       - agreement
@@ -36,8 +36,6 @@ parts:
           - id: navigate-via-tension
             tags: [pattern]
           - id: describe-organizational-drivers
-            tags: [pattern]
-          - id: determine-requirements
             tags: [pattern]
           - id: consent-decision-making
             tags: [pattern]
@@ -60,23 +58,17 @@ parts:
         parts:   
           - id: clarify-and-develop-domains
             tags: [pattern]
-          - id: manage-the-whole-system
-            tags: [pattern]
-          - id: enable-autonomy
-            tags: [pattern]
-          - id: collaborate-on-dependencies
+          - id: delegate-influence
             tags: [pattern]
           - id: clarify-and-develop-strategy
             tags: [pattern]
-          - id: design-adaptable-systems
-            tags: [pattern]
           - id: align-flow
-            tags: [pattern]
-          - id: open-systems
             tags: [pattern]
           - id: create-a-pull-system-for-organizational-change
             tags: [pattern]
           - id: driver-mapping
+            tags: [pattern]
+          - id: open-systems
             tags: [pattern]
       - id: peer-development
         tags: [group]
@@ -100,15 +92,11 @@ parts:
             tags: [pattern]
           - id: involve-those-affected
             tags: [pattern]
-          - id: invest-in-ongoing-learning
-            tags: [pattern]
           - id: breaking-agreements
             tags: [pattern]
-          - id: financial-transparency
+          - id: transparent-salary
             tags: [pattern]
-          - id: share-costs-and-gains
-            tags: [pattern]
-          - id: open-salary
+          - id: contract-for-successful-collaboration
             tags: [pattern]
           - id: support-role
             tags: [pattern]
@@ -126,10 +114,6 @@ parts:
           - id: double-linking
             tags: [pattern]
           - id: representative
-            tags: [pattern]
-          - id: delegate-circle
-            tags: [pattern]
-          - id: service-circle
             tags: [pattern]
           - id: open-team
             tags: [pattern]
@@ -151,8 +135,6 @@ parts:
       - id: defining-agreements
         tags: [group]
         parts:
-          - id: contract-for-successful-collaboration
-            tags: [pattern]          
           - id: record-agreements
             tags: [pattern]
           - id: clarify-intended-outcome
@@ -206,8 +188,6 @@ parts:
             tags: [pattern]
           - id: visualize-work
             tags: [pattern]
-          - id: deliver-value-incrementally
-            tags: [pattern]
           - id: pull-system-for-work
             tags: [pattern]
           - id: limit-work-in-progress
@@ -216,42 +196,49 @@ parts:
             tags: [pattern]
           - id: coordinator
             tags: [pattern]
-  - id: organizational-structure
-    parts:
-      - id: examples-of-larger-structures
+      - id: organizational-structure
+        tags: [group]
         parts:
-          - peach-organization
-          - double-linked-hierarchy
-          - service-organization
-          - fractal-organization
+          - id: delegate-circle
+            tags: [pattern]
+          - id: service-circle
+            tags: [pattern]
+          - id: peach-organization
+            tags: [pattern]
+          - id: double-linked-hierarchy
+            tags: [pattern]
+          - id: service-organization
+            tags: [pattern]
+          - id: fractal-organization
+            tags: [pattern]
+
   - id: csf
     parts:
       - thrive
       - ten-principles
       - id: orientation
         parts:
-          - principle-1-clarify-purpose
-          - principle-2-develop-strategy
+          - clarify-purpose
+          - develop-strategy
       - id: navigation
         parts:
-          - principle-3-focus-on-value
-          - principle-4-sense-respond
-          - principle-5-run-experiments
+          - focus-on-value
+          - sense-respond
+          - run-experiments
       - id: structure
         parts:
-          - principle-6-enable-autonomy
-          - principle-7-collaborate-on-dependencies
+          - enable-autonomy
+          - collaborate-on-dependencies
       - id: transformation
         parts:
-          - principle-8-invest-in-learning
-          - principle-9-develop-culture
-          - principle-10-shared-mental-models
+          - invest-in-learning
+          - develop-culture
+          - shared-mental-models
       - where-to-start
   - id: appendix
     parts:
       - changelog
       - pattern-index
-      - example-domain-description
       - links
       - license
       - disclaimer
