@@ -45,10 +45,10 @@ En cualquier lugar y momento en que tomes decisiones de gobernanza, una cosa que
 
 ## Conceptos relacionados
 
-**Autogobierno:** {{glossary:autogobierno}}
+**Autogobierno:** {{glossary:self-governance}}
 
-**Semiautonomía:** {{glossary:semiautonomía}}
+**Semiautonomía:** {{glossary:semi-autonomy}}
 
-**Autoorganización:** {{glossary:autoorganización}}
+**Autoorganización:** {{glossary:self-organization}}
 
 Dependiendo de las restricciones establecidas por la persona delegadora, los equipos tienen más o menos libertad para gestionar la gobernanza y decidir cómo organizan sus operaciones, y por lo tanto están más o menos autogobernados y autoorganizados.

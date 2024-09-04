@@ -13,7 +13,7 @@ Desvela los drivers y establece un sistema "pull" basado en métricas para el ca
 
 ## Desperdicio y mejora continua
 
-{{define:desperdicio}}
+{{define:waste}}
 
 Los desperdicios existen en diversas formas y en diferentes niveles de abstracción (tareas, procesos, estructuras organizativas, modelos mentales etc.)
 

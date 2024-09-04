@@ -1,6 +1,6 @@
 # Dominios
 
-{{define:dominio}}
+{{define:domain}}
 
 Para emplear mejor su limitado tiempo, energía y recursos, la gente en las organizaciones se reparte el trabajo entre ella creando roles o formando equipos, unidades o departamentos. En el proceso están explícita o implícitamente definiendo dominios - áreas distintas de responsabilidad y autonomía. Todos los dominios están dentro del dominio general de una organización y pueden solaparse y/o estar completamente contenidos dentro de otros dominios.
 
