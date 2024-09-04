@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Mapeo de drivers</title>
+  <meta name="description" content="La descripción oficial de Sociocracia 3.0 - Todos los patrones, los Siete Principios y conceptos clave. Mantenida por Bernhard Bockelbrink, James Priest y Liliana David.
+">
+  <meta name="keywords" content="sociocracy, holacracy, s3, scrum, kanban, agile, lean">
+  <meta name="author" content="Bernhard Bockelbrink, James Priest, Liliana David"><link rel="canonical" href="http://localhost:4000/driver-mapping.html">
+  <link rel="alternate" type="application/rss+xml" title="Una guía práctica para la Sociocracia 3.0" href="http://localhost:4000/feed.xml">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/menu/sm-core-css-1.1.1.css">
+ 
+  <link rel="prev" href="/create-a-pull-system-for-organizational-change.html">
+  
+ 
+  <script type="text/javascript">
+  
+  var prev_page_url = "/create-a-pull-system-for-organizational-change.html";
+  var prev_page_title = "Crea un sistema \"pull\" para el cambio organizacional";
+  
+  
+  var next_page_url = "/open-systems.html";
+  var next_page_title = "Sistemas Abiertos";
+   
+  </script>
+</head>
+
+
+  <body onload="setupAnnotations();">
+    <header class="site-header container-fluid">
+      <div class="row">
+  <div class="header-title col-10">
+    <a class="site-title" href="/">Una guía práctica para la Sociocracia 3.0</a>
+  </div>
+  <div class="header-icons col-2">
+    <a href="/pattern-index.html" ><img src="/icons/list-ul.svg" class="icon" title="Un índice en orden alfabético de todos los patrones." alt="indice de patrones" /></a>
+    <a href="/map.html" ><img src="/icons/map.svg" class="icon" alt="mapa de patrones" title="Usa el mapa de patrones para saltar a otro patrón." /></a>
+    <span id="annotate-span"><a href="" id="annotate-link"><img src="/icons/comments-alt.svg" class="icon" title="Anota esta página con hypothes.is. Haz clic aquí, espere a que la página se vuelva a cargar, luego puedes resaltar texto y añadir comentarios públicos. Necesitarás configurar una cuenta gratuita en hypothes.is." alt="anota página" /></a></span>
+  </div>
+</div>
+
+    </header>
+    <div class="site-body container-fluid">
+      <div class="row">
+        <nav class="main-nav col">
+          <!-- Mobile menu toggle button (hamburger/x icon) -->
+<input id="main-menu-state" type="checkbox" />
+<label class="main-menu-btn" for="main-menu-state">
+  <span class="main-menu-btn-icon"></span> Cambiar la visibilidad del menú principal
+</label>
+<!-- the actual menu -->
+<ul id="main-menu" class="sm sm-mint sm-vertical">
+  <li><a href="index.html">Inicio</a></li>
+  
+    <li><a href="what-is-s3.html">¿Qué es la Sociocracia 3.0?</a>
+    <ul>
+      <li><a href="what-is-s3.html">¿Qué es la Sociocracia 3.0?</a></li>
+      <li><a href="how-does-s3-help.html">¿Cómo ayuda la Sociocracia 3.0?</a>
+      </li>
+      <li><a href="pattern.html">Un enfoque basado en patrones para el cambio organizacional</a>
+      </li>
+      <li><a href="contents.html">¿Qué hay en esta guía?</a>
+      </li>
+      <li><a href="history.html">Influencias e historia de la Sociocracia 3.0</a>
+      </li>
+      <li><a href="why-30.html">¿Por qué "3.0"?</a>
+      </li>
+    </ul>
+  </li>
+  <li><a href="principles.html">Los siete principios</a>
+    <ul>
+      <li><a href="principles.html">Los siete principios</a></li>
+      <li><a href="principle-effectiveness.html">El principio de efectividad</a>
+      </li>
+      <li><a href="principle-consent.html">El principio de consentimiento</a>
+      </li>
+      <li><a href="principle-empiricism.html">El principio de empirismo</a>
+      </li>
+      <li><a href="principle-continuous-improvement.html">El principio de mejora continua</a>
+      </li>
+      <li><a href="principle-equivalence.html">El principio de equivalencia</a>
+      </li>
+      <li><a href="principle-transparency.html">El principio de transparencia</a>
+      </li>
+      <li><a href="principle-accountability.html">Principio de responsabilidad</a>
+      </li>
+    </ul>
+  </li>
+  <li><a href="making-sense-of-organizations.html">Conceptos clave para comprender las organizaciones</a>
+    <ul>
+      <li><a href="making-sense-of-organizations.html">Conceptos clave para comprender las organizaciones</a></li>
+      <li><a href="driver.html">Drivers</a>
+      </li>
+      <li><a href="domain.html">Dominios</a>
+      </li>
+      <li><a href="objection.html">Objeciones</a>
+      </li>
+      <li><a href="agreement.html">Acuerdos</a>
+      </li>
+      <li><a href="governance.html">Gobernanza y operaciones</a>
+      </li>
+    </ul>
+  </li>
+  <li><a href="patterns.html">Los patrones</a>
+    <ul>
+      <li><a href="patterns.html">Los patrones</a></li>
+      <li><a href="sense-making-and-decision-making.html">Producción de sentido y toma de decisiones</a>
+        <ul>
+          <li><a href="sense-making-and-decision-making.html">Producción de sentido y toma de decisiones</a></li>
+          <li><a href="respond-to-organizational-drivers.html">Responder a drivers organizacionales</a>
+          </li>
+          <li><a href="navigate-via-tension.html">Navegar a través de la tensión</a>
+          </li>
+          <li><a href="describe-organizational-drivers.html">Describe los Drivers Organizacionales</a>
+          </li>
+          <li><a href="consent-decision-making.html">Toma de decisiones por consentimiento</a>
+          </li>
+          <li><a href="test-arguments-qualify-as-objections.html">Comprobar si los argumentos califican como objeciones</a>
+          </li>
+          <li><a href="resolve-objections.html">Resolver objeciones</a>
+          </li>
+          <li><a href="evaluate-and-evolve-agreements.html">Evaluar y evolucionar acuerdos</a>
+          </li>
+          <li><a href="co-create-proposals.html">Cocrear propuestas</a>
+          </li>
+          <li><a href="proposal-forming.html">Formación de una propuesta</a>
+          </li>
+          <li><a href="reasoned-decision-making.html">Toma de decisiones razonada</a>
+          </li>
+          <li><a href="role-selection.html">Selección de rol</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="evolving-organizations.html">Evolucionando organizaciones</a>
+        <ul>
+          <li><a href="evolving-organizations.html">Evolucionando organizaciones</a></li>
+          <li><a href="clarify-and-develop-domains.html">Clarificar y desarrollar dominios</a>
+          </li>
+          <li><a href="delegate-influence.html">Delegar influencia</a>
+          </li>
+          <li><a href="clarify-and-develop-strategy.html">Clarificar y desarrollar la estrategia</a>
+          </li>
+          <li><a href="align-flow.html">Alinear el flujo</a>
+          </li>
+          <li><a href="create-a-pull-system-for-organizational-change.html">Crea un sistema "pull" para el cambio organizacional</a>
+          </li>
+          <li><a href="driver-mapping.html">Mapeo de drivers</a>
+          </li>
+          <li><a href="open-systems.html">Sistemas Abiertos</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="peer-development.html">Desarrollo entre iguales</a>
+        <ul>
+          <li><a href="peer-development.html">Desarrollo entre iguales</a></li>
+          <li><a href="ask-for-help.html">Solicitar ayuda</a>
+          </li>
+          <li><a href="peer-feedback.html">Retroalimentación entre iguales</a>
+          </li>
+          <li><a href="peer-review.html">Revisión por pares</a>
+          </li>
+          <li><a href="development-plan.html">Plan de Desarrollo</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="enablers-of-co-creation.html">Habilitadores de cocreación</a>
+        <ul>
+          <li><a href="enablers-of-co-creation.html">Habilitadores de cocreación</a></li>
+          <li><a href="artful-participation.html">Participación creativa</a>
+          </li>
+          <li><a href="adopt-the-seven-principles.html">Adoptar los Siete Principios</a>
+          </li>
+          <li><a href="agree-on-values.html">Acordar los valores</a>
+          </li>
+          <li><a href="involve-those-affected.html">Involucra a los afectados</a>
+          </li>
+          <li><a href="breaking-agreements.html">Rompiendo acuerdos</a>
+          </li>
+          <li><a href="transparent-salary.html">Remuneración transparente</a>
+          </li>
+          <li><a href="contract-for-successful-collaboration.html">Contrato para una colaboración exitosa</a>
+          </li>
+          <li><a href="support-role.html">Rol de apoyo</a>
+          </li>
+          <li><a href="bylaws.html">Reglamentos</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="building-organizations.html">Construyendo Organizaciones</a>
+        <ul>
+          <li><a href="building-organizations.html">Construyendo Organizaciones</a></li>
+          <li><a href="circle.html">Círculo</a>
+          </li>
+          <li><a href="role.html">Rol</a>
+          </li>
+          <li><a href="linking.html">Vinculación</a>
+          </li>
+          <li><a href="double-linking.html">Doble Enlace</a>
+          </li>
+          <li><a href="representative.html">Representantes</a>
+          </li>
+          <li><a href="open-team.html">Equipo abierto</a>
+          </li>
+          <li><a href="helping-team.html">Equipo de ayuda</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="bringing-in-s3.html">Integrar la S3</a>
+        <ul>
+          <li><a href="bringing-in-s3.html">Integrar la S3</a></li>
+          <li><a href="adapt-patterns-to-context.html">Adaptar los patrones al contexto</a>
+          </li>
+          <li><a href="be-the-change.html">Sé el cambio</a>
+          </li>
+          <li><a href="invite-change.html">Invita al cambio</a>
+          </li>
+          <li><a href="open-space-for-change.html">"Espacio abierto" para el cambio</a>
+          </li>
+          <li><a href="continuous-improvement-of-work-process.html">Mejora continua del proceso de trabajo</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="defining-agreements.html">Definiendo acuerdos</a>
+        <ul>
+          <li><a href="defining-agreements.html">Definiendo acuerdos</a></li>
+          <li><a href="record-agreements.html">Registrar los acuerdos</a>
+          </li>
+          <li><a href="clarify-intended-outcome.html">Clarificar el resultado pretendido</a>
+          </li>
+          <li><a href="describe-deliverables.html">Describe los entregables</a>
+          </li>
+          <li><a href="evaluation-criteria.html">Criterios de evaluación</a>
+          </li>
+          <li><a href="logbook.html">Bitácora</a>
+          </li>
+          <li><a href="logbook-keeper.html">Guardián de la bitácora</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="meeting-formats.html">Formatos de reunión</a>
+        <ul>
+          <li><a href="meeting-formats.html">Formatos de reunión</a></li>
+          <li><a href="retrospective.html">Retrospectiva</a>
+          </li>
+          <li><a href="governance-meeting.html">Reunión de gobernanza</a>
+          </li>
+          <li><a href="daily-standup.html">Reunión diaria</a>
+          </li>
+          <li><a href="planning-and-review-meetings.html">Reuniones de planificación y revisión</a>
+          </li>
+          <li><a href="coordination-meeting.html">Reunión de coordinación</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="meeting-practices.html">Prácticas de reunión</a>
+        <ul>
+          <li><a href="meeting-practices.html">Prácticas de reunión</a></li>
+          <li><a href="rounds.html">Rondas</a>
+          </li>
+          <li><a href="facilitate-meetings.html">Facilitar reuniones</a>
+          </li>
+          <li><a href="prepare-for-meetings.html">Preparación para reuniones</a>
+          </li>
+          <li><a href="check-in.html">Check in</a>
+          </li>
+          <li><a href="evaluate-meetings.html">Evaluar reuniones</a>
+          </li>
+          <li><a href="meeting-host.html">Organizador de reuniones</a>
+          </li>
+          <li><a href="governance-facilitator.html">Persona facilitadora de gobernanza</a>
+          </li>
+          <li><a href="governance-backlog.html">Agenda de pendientes de gobernanza </a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="organizing-work.html">Organización del trabajo</a>
+        <ul>
+          <li><a href="organizing-work.html">Organización del trabajo</a></li>
+          <li><a href="backlog.html">Agenda de asuntos pendientes</a>
+          </li>
+          <li><a href="prioritize-backlogs.html">Priorizar la agenda de asuntos pendientes</a>
+          </li>
+          <li><a href="visualize-work.html">Visualizar el trabajo</a>
+          </li>
+          <li><a href="pull-system-for-work.html">Sistema de trabajo pull</a>
+          </li>
+          <li><a href="limit-work-in-progress.html">Limitar el trabajo en curso</a>
+          </li>
+          <li><a href="timebox-activities.html">Timebox Activities</a>
+          </li>
+          <li><a href="coordinator.html">Coordinador</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="organizational-structure.html">Estructura organizacional</a>
+        <ul>
+          <li><a href="organizational-structure.html">Estructura organizacional</a></li>
+          <li><a href="delegate-circle.html">Círculo de delegados</a>
+          </li>
+          <li><a href="service-circle.html">Círculo de servicio</a>
+          </li>
+          <li><a href="peach-organization.html">Organización Peach</a>
+          </li>
+          <li><a href="double-linked-hierarchy.html">Jerarquía de doble enlace</a>
+          </li>
+          <li><a href="service-organization.html">Organización de servicios</a>
+          </li>
+          <li><a href="fractal-organization.html">Organización Fractal</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="csf.html">Un marco de sentido común para organizaciones y equipos</a>
+    <ul>
+      <li><a href="csf.html">Un marco de sentido común para organizaciones y equipos</a></li>
+      <li><a href="thrive.html">Una organización donde TANTO las personas COMO la organización puedan tener éxito</a>
+      </li>
+      <li><a href="ten-principles.html">Diez principios para equipos y organizaciones en evolución</a>
+      </li>
+      <li><a href="orientation.html">Dos principios para la orientación</a>
+        <ul>
+          <li><a href="orientation.html">Dos principios para la orientación</a></li>
+          <li><a href="clarify-purpose.html">Principio 1 – Clarificar el propósito</a>
+          </li>
+          <li><a href="develop-strategy.html">Principio 2 – Desarrollar la estrategia</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="navigation.html">Tres principios para la navegación</a>
+        <ul>
+          <li><a href="navigation.html">Tres principios para la navegación</a></li>
+          <li><a href="focus-on-value.html">Principio 3 – Foco en el valor</a>
+          </li>
+          <li><a href="sense-respond.html">Principio 4 – Siente y responde</a>
+          </li>
+          <li><a href="run-experiments.html">Principio 5 – Realizar Experimentos</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="structure.html">Dos principios para la estructura</a>
+        <ul>
+          <li><a href="structure.html">Dos principios para la estructura</a></li>
+          <li><a href="enable-autonomy.html">Principio 6 – Habilitar la autonomía</a>
+          </li>
+          <li><a href="collaborate-on-dependencies.html">Principio 7 – Colaboración en dependencias</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="transformation.html">Tres principios para la transformación</a>
+        <ul>
+          <li><a href="transformation.html">Tres principios para la transformación</a></li>
+          <li><a href="invest-in-learning.html">Principio 8 – Invertir en aprendizaje</a>
+          </li>
+          <li><a href="develop-culture.html">Principio 9 – Desarrollar intencionadamente la cultura</a>
+          </li>
+          <li><a href="shared-mental-models.html">Principio 10 – Crear modelos mentales compartidos</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="where-to-start.html">¿Por dónde empezar?</a>
+      </li>
+    </ul>
+  </li>
+  <li><a href="appendix.html">Apéndice</a>
+    <ul>
+      <li><a href="appendix.html">Apéndice</a></li>
+      <li><a href="changelog.html"></a>
+      </li>
+      <li><a href="pattern-index.html">Orden alfabético de todos los patrones</a>
+      </li>
+      <li><a href="links.html">Enlaces</a>
+      </li>
+      <li><a href="license.html">Licencia</a>
+      </li>
+      <li><a href="disclaimer.html">Aviso legal</a>
+      </li>
+      <li><a href="icpt.html">El Compromiso intencional para practicantes y maestros de Sociocracia 3.0 (CIPM)</a>
+      </li>
+      <li><a href="acknowledgments.html">Agradecimientos</a>
+      </li>
+      <li><a href="authors.html">Autores</a>
+      </li>
+      <li><a href="glossary.html">Glosario</a>
+      </li>
+    </ul>
+  </li>
+  
+  <li><a href="#">Enlaces directos</a>
+    <ul class="mega-menu">
+      <li><a href="/index.html">Página principal</a></li>
+      <li><a href="/glossary.html">Glosario</a></li>
+      <li><a href="/changelog.html"></a></li>
+      <li><a href="/pattern-index.html" title="Un índice en orden alfabético de todos los patrones."><img src="/icons/list-ul.svg" class="icon" alt="site index" />&nbsp;Indice de Patrones</a></li>
+      <li><a href="/map.html" title="Usa el mapa de patrones para saltar a otro patrón."><img src="/icons/map.svg" class="icon" alt="site map" />&nbsp;Mapa</a></li>
+      <li><span id="annotate-span"><a href="" id="annotate-link" title="Anota esta página con hypothes.is. Haz clic aquí, espera a que la página se vuelva a cargar, luego puedes resaltar texto y añadir comentarios públicos. Necesitarás configurar una cuenta gratuita en hypothes.is."><img src="/icons/comments-alt.svg" class="icon" alt="annotate page" />&nbsp;Anota la página</a></span></li>
+      <li><a href="https://sociocracy30.org/resources/#se-practical-guide">Descargas</a></li>
+      <li><a href="https://sociocracy30.org">Sitio de Sociocracia 3.0</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+        </nav>
+        <div class="content-container col">
+          <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Mapeo de drivers</h1>
+  </header>
+
+  <div class="post-content" markdown="1">
+    <div class="card summary"><div class="card-body">Un formato de taller para grupos grandes para cocrear y organizarse en respuesta a una situación compleja de alcance y escala significativos.
+</div></div>
+
+<p>Durante el taller, las partes interesadas hacen suyo plenamente el proceso de principio a fin, al ir pasando del concepto a una colaboración completamente operativa.</p>
+
+<p>Identifica las partes interesadas relevantes, determina los requisitos relacionados y utilízalos para identificar los elementos de trabajo y las decisiones que se deben tomar, distribuir el trabajo y definir una estructura inicial para la colaboración.</p>
+
+<p>Puedes usar el mapeo de drivers para:</p>
+
+<ul>
+  <li>organizar start-ups,</li>
+  <li>iniciar proyectos,</li>
+  <li>abordar los principales obstáculos u oportunidades,</li>
+  <li>implementar la estrategia</li>
+  <li>desarrollar una estructura organizacional para permitir un mejor flujo de valor.</li>
+</ul>
+
+<p>El resultado de un taller de mapeo de drivers es habitualmente:</p>
+
+<ul>
+  <li>una distribución del trabajo, clasificada en una serie de dominios, centrada en las necesidades de las partes interesadas.</li>
+  <li>una estructura organizacional hecha a medida que lo reúne todo, incluyendo la interconexión de dominios para gestionar dependencias.</li>
+  <li>un primer borrador de agenda de pendientes priorizados de gobernanza y operaciones para cada subdominio identificado.</li>
+  <li>la delegación de influencia y la distribución de personas a los subdominios por medio de la auto selección y nominación.</li>
+</ul>
+
+<p>Aunque el mapeo de drivers se usa con frecuencia para identificar y definir nuevos dominios, también hay aplicaciones para identificar y distribuir drivers de gobernanza y operacionales entre los dominios existentes de una organización, por ejemplo, cuando una iniciativa va a ser abordada por equipos ya existentes en una organización, o si un grupo siente que está estancado en su estructura actual y busca inspiración sobre cómo adapatarla gradualmente. El grupo puede decidir si se mapean a los dominios existentes y averiguan cuáles nuevos necesitan crear, o incluso crear una nueva estructura de cero.</p>
+
+<p>En un grupo pequeño o círculo (como máximo 6-8 personas), cuando no es una prioridad distribuir el trabajo, el equipo podría usar solo los pasos del 1 al 5, para entender el alcance y cubrir la agenda de pendientes de operaciones y gobernanza, y luego utilizar la formación de propuestas o algún otro enfoque para identificar la estrategia y/o los pasos siguientes.</p>
+
+<p>Durante la preparación:</p>
+
+<ul>
+  <li>invita a personas que puedan hacer una contribución relevante a este proyecto. Envía el programa del taller con antelación.</li>
+  <li>envía con antelación el driver primario con el que trabajarás, y en caso de un dominio existente, la descripción del dominio para el proyecto/iniciativa para que la gente pueda familiarizarse con él. Intenta resolver cualquier objeción antes del taller.</li>
+  <li>los asistentes ya pueden prepararse pensando y registrando ideas de actores y necesidades relacionadas.</li>
+  <li>prepara un póster con la descripción del dominio para presentarlo en el primer paso. Para trabajar también necesitarás la A5 y las notas adhesivas, bolígrafos y una pared ancha.</li>
+</ul>
+
+<h2 id="el-proceso-de-mapeo-de-drivers">El proceso de mapeo de drivers</h2>
+
+<p>Estos son los pasos a seguir:</p>
+
+<p><img src="img/process/driver-mapping.png" alt="Mapeo de drivers: proceso" /></p>
+
+<h3 id="1-por-qué-estamos-aquí">1. ¿Por qué estamos aquí?</h3>
+
+<p><em>Presentación y consentimiento del driver primario</em></p>
+
+<ul>
+  <li>Presentar el driver primario al grupo</li>
+  <li>Consentimiento al driver – <em>¿Es esta una descripción suficientemente clara del driver? ¿Es importante que respondamos a él</em>?</li>
+  <li>Aclara cualquier restricción existente por parte de la persona delegadora, por ejemplo, presupuesto, plazo previsto, expectativas, etc. En el caso de un dominio existente, presente la descripción del dominio. Invite más preguntas que ayuden a profundizar en la comprensión sobre lo que está sucediendo y lo que se necesita.</li>
+  <li>Haz explícito el nivel de compromiso que se espera de los participantes. P. ej. se espera que las personas estén aquí solo por la duración del taller, o durante toda la iniciativa, etc.</li>
+  <li>Registra cualquier información relevante que surja.</li>
+</ul>
+
+<h3 id="2--quién-se-verá-afectado">2. . ¿Quién se verá afectado?</h3>
+
+<p><em>¿Quién se verá afectado cuando respondamos al driver principal? Considere quién puede ayudar / interponerse en el camino / beneficiarse / perder o ser perjudicado.</em></p>
+
+<ul>
+  <li>Lista los actores en notas adhesivas y pégalas en un tablero</li>
+  <li>Enfócate en las personas reales que se verán afectadas por esta iniciativa (grupos o individuos), y evita hacer suposiciones sobre roles futuros (como <em>Gestor de proyectos</em>) u otros dominios (por ejemplo, <em>Marketing</em>) en esta etapa.</li>
+</ul>
+
+<h3 id="3-qué-se-necesita">3. ¿Qué se necesita?</h3>
+
+<p><em>Considera los distintos actores y describe lo que se necesita: ¿qué necesitan en el contexto del  driver principal, y qué necesitamos de ellos?</em></p>
+
+<ul>
+  <li>Escribe cada sugerencia en una nota adhesiva separada (tarjetas de necesidad)</li>
+  <li>Describe la necesidad así como el impacto previsto de responder a esa necesidad</li>
+  <li>Usa el formato <em>“Nosotros / ellos necesitamos … para que …”</em></li>
+  <li>Añade el nombre del actor en la esquina superior izquierda de la tarjeta</li>
+  <li>Añade tu nombre en la esquina superior derecha de la tarjeta</li>
+</ul>
+
+<p><img src="img/templates/need-card.png" alt="Mapeo de drivers: Una tarjeta de necesidades" /></p>
+
+<h3 id="4-identificar-experiencias-y-conocimientos">4. Identificar experiencias y conocimientos</h3>
+
+<p><em>Identificar quién tiene experiencia o conocimientos sobre responder a estas necesidades, de modo que más tarde cuando las personas respondan a una necesidad específica, sepan quién puede tener información valiosa.</em></p>
+
+<ul>
+  <li>Tómate tu tiempo para familiarizarte con las diferentes <em>tarjetas de necesidades</em>.</li>
+  <li>Añade su nombre a esas <em>tarjetas de necesidades</em> sobre las que tiene experiencia, o ideas sobre cómo abordarlas, para que más adelante en el proceso la gente pueda consultarte si le es de ayuda.</li>
+  <li>Considera añadir nombres de personas que no están presentes si crees que podrían hacer una contribución valiosa.</li>
+  <li>Escribe el(los) nombre(s) de esas personas en la parte inferior de la <em>tarjeta de necesidades</em>.</li>
+  <li>Añadir tu nombre a una tarjeta en este paso, no significa que estés asumiendo la responsabilidad de la necesidad, solo que eres capaz y estás dispuesto a contribuir a encontrar una solución si esto es útil más adelante.</li>
+</ul>
+
+<h3 id="5-identificar-dominios">5. Identificar dominios</h3>
+
+<p><em>Agrupa los actores y/o necesidades según su relevancia, en <strong>dominios</strong> coherentes como punto de partida para ordenar y priorizar las necesidades. Considera cómo optimizar la aportación de valor de principio a fin, a los diversos actores que identificó en el paso 2.</em></p>
+
+<p>Modos de identificar dominios:</p>
+
+<ul>
+  <li>Agrupa a los actores similares (actorcéntrico)</li>
+  <li>Agrupa las necesidades similares (necesidadescéntrico)</li>
+  <li>Una combinación de ambas (de los anteriores) es común</li>
+</ul>
+
+<p>Considera este paso finalizado, tan pronto como hayas acordado una primera iteración de una distribución significativa del trabajo. Recuerda, puedes hacer cambios en los dominios que definiste en cualquier momento (más adelante durante el taller o posteriormente), así que solo tienes que intentar lograr algo que sea lo suficientemente bueno como para empezar.</p>
+
+<p><em>Como facilitador, apoya con cuidado al grupo en la autoorganización y sé consciente de las personas que abandonan la conversación. Este proceso a menudo incluye una fase que parece caótica para algunos participantes, lo que puede hacer que se sientan incómodos. Para comprobar si un resultado es alcanzado, pide objeciones a que los dominios sean lo suficientemente buenos por ahora.</em></p>
+
+<h3 id="6-asigna-personas-y-define-dominios">6. Asigna personas y define dominios</h3>
+
+<p><em>La gente se organiza en equipos más pequeños en torno a los diferentes dominios, luego define el dominio y dale un nombre.</em></p>
+
+<ul>
+  <li>Forma un pequeño equipo alrededor de los dominios conforme a la experiencia e interés</li>
+  <li>Añade primero al menos 1 o 2 personas con experiencia. Usa la información en las tarjetas,</li>
+  <li>Comprueba que se da cuenta de todos los dominios de modo suficiente</li>
+  <li>En cada grupo:
+    <ul>
+      <li>acuerda un nombre para el dominio.</li>
+      <li>define el driver primario para el dominio (y redacta una breve descripción del dominio si eso ayuda).</li>
+    </ul>
+  </li>
+  <li>Por último, haz que cada grupo presente brevemente su dominio, y durante cada informe busca las dependencias y cualquier superposición de estos dominios.</li>
+</ul>
+
+<p>En esta fase algunas personas podrían ir de un dominio a otro hasta que encuentren uno en el que sientan que pueden contribuir.</p>
+
+<h3 id="7-afina-las-agendas-de-pendientes">7. Afina las agendas de pendientes</h3>
+
+<p><em>Organiza el trabajo que hay por hacer en cada ámbito, asegúrate que las cosas se priorizan y describen con claridad.</em></p>
+
+<ul>
+  <li>Para cada dominio, copia la plantilla de abajo en un rotafolio</li>
+  <li>Ordena todas las necesidades restantes en los dos registros de asuntos pendientes del rotafolio:
+    <ul>
+      <li>registro de operaciones pendientes: necesidades sobre las que se puede actuar</li>
+      <li>registro de gobernanza pendiente: necesidades que se beneficiarían o necesitarían una decisión</li>
+    </ul>
+  </li>
+  <li>Combina y reformula las tarjetas según sea necesario, de modo que la descripción en cada tarjeta sea clara. Consulta al autor de la tarjeta cuando hayan dudas.</li>
+  <li>Prioriza las cartas en cada tablón.</li>
+  <li>Archiva cualquier tarjeta de “necesidades” que parezca superflua.</li>
+  <li>Considera el dominio y describe y prioriza otras necesidades que puedan no haber sido identificadas.</li>
+  <li>Rechaza tarjetas que parecen ser la responsabilidad de otro dominio abordar.</li>
+  <li>Pon a un lado las cartas relativas a múltiples dominios. Puedes abordarlas en el paso 8.</li>
+</ul>
+
+<p><em>Como persona facilitadora del proceso de mapeo del driver, proporciona un espacio para recoger tarjetas relativas a múltiples dominios para que puedan ser abordadas más adelante.</em></p>
+
+<p>Pausa con regularidad para compartir informes entre los distintos dominios. Nota: Algunos dominios podrían disolver, cambiar o fusionarse con otros.</p>
+
+<p><img src="img/templates/domain-template.png" alt="Mapeo de drivers: Una plantilla para dominios" /></p>
+
+<h3 id="8-conecta-dominios">8. Conecta dominios</h3>
+
+<p><em>Crea estructura para gestionar dependencias y tratar asuntos que se extienden más allá del alcance de un dominio o afectan a la organización más amplia</em></p>
+
+<ul>
+  <li>Para una nueva organización o proyecto, considera <a href="delegate-circle.html">Círculos de personas delegadas</a>, <a href="service-circle.html"> Círculos de servicio</a> o <a href="double-linking.html">Enlace doble entre dominios</a>.</li>
+  <li>Para una organización existente, también considera conectarte a dominios existentes en la organización.</li>
+</ul>
+
+<h3 id="9-qué-más">9. ¿Qué más?</h3>
+
+<p><em>Tómate un momento para comprobar si falta algo.</em></p>
+
+<p>¿Qué más debemos tener en cuenta…</p>
+
+<ul>
+  <li>…para funcionar de forma segura?</li>
+  <li>…para abordar el driver principal?</li>
+</ul>
+
+<h3 id="10-celebra">10. ¡Celebra!</h3>
+
+<p><em>¡Tómate un momento para celebrar tus logros en poner en marcha su organización o iniciativa!</em></p>
+
+
+  </div>
+
+  <div class="bottom-nav">
+
+    
+    <a href="/create-a-pull-system-for-organizational-change.html" class="navigation navigation-prev" id="prev-page" title="Crea un sistema "pull" para el cambio organizacional"><img src="/icons/angle-left-b.svg" height="40px" class="icon navicon icon-prev" title="Crea un sistema "pull" para el cambio organizacional" /></a>
+    
+    
+    <a href="/open-systems.html}}" class="navigation navigation-next " id="next-page" title="Sistemas Abiertos"><img src="/icons/angle-right-b.svg" height="40px" class="icon navicon icon-next" title="Sistemas Abiertos" />Read next: Sistemas Abiertos</a>
+    
+  </div>
+</article>
+
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer container-fluid">
+      <div class="row">
+  <div class="col footer-top">
+    <p>Esta obra de Bernhard Bockelbrink, James Priest y Liliana David está bajo la <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+    <p>Lea esta página en <a href="https://patterns.sociocracy30.org/driver-mapping.html">Inglés</a> | <a href="https://patterns-de.sociocracy30.org/driver-mapping.html">Alemán</a> | <a href="https://patterns-fr.sociocracy30.org/driver-mapping.html">Francés</a> | <a href="https://patterns-nl.sociocracy30.org/driver-mapping.html">Holandés</a> | <a href="https://patterns-he.sociocracy30.org/driver-mapping.html">Hebreo</a></p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-8">
+    <p><a href="https://sociocracy30.org/contact/">Contáctenos</a> | <a href="disclaimer.html">Aviso de responsabilidad</a> | <a href="acknowledgments.html">Agradecimientos</a></p>
+    <p class="hp-version">v2024-04-18-es-0.01</p>
+  </div>
+  <div class="footer-col-bottom-right col-sm-4">
+    <ul class="social-media-list">
+      <li><a href="https://sociocracy30.org">Sitio Sociocracia 3.0</a></li>
+      
+      <li>
+        <a href="https://twitter.com/sociocracy30"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">sociocracy30</span></a>
+
+      </li>
+      
+      
+      <li><a href="https://github.com/S3-working-group/s3-practical-guide-spanish">Fork en GitHub</a></li>
+    </ul>
+  </div>
+</div>
+    </footer>
+
+    <script type="text/javascript" src="/js/jquery-3.5.1.min.js "></script>
+    <script type="text/javascript" src="/js/popper-1.16.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap-4.6.2.min.js"></script>
+    <script type="text/javascript" src="/js/mousetrap-1.6.5.min.js"></script>
+    <script type="text/javascript" src="/js/zoomify-0.2.5.min.js"></script>
+    <script type="text/javascript" src="/menu/jquery.smartmenus-1.1.1.min.js"></script>
+<script type="text/javascript" src="/menu/jquery.smartmenus.keyboard-0.4.0.min.js"></script>
+
+<script type="text/javascript">
+  $(function() {
+    $('#main-menu').smartmenus({
+      subMenusSubOffsetX: 6,
+      subMenusSubOffsetY: -8
+    });
+    $('#main-menu').smartmenus('keyboardSetHotkey', 77, 'shiftKey');
+  });
+</script>
+
+    <script type="text/javascript">
+  <!-- Go Map -->
+  Mousetrap.bind('g m', function() {
+    window.location.href = 'map.html';
+    return false;
+  });
+  <!-- Go: (Pattern) Index -->
+  Mousetrap.bind('g i', function() {
+    window.location.href = 'pattern-index.html';
+    return false;
+  });
+  <!-- Go: Changelog -->
+  Mousetrap.bind('g c', function() {
+    window.location.href = 'changelog.html';
+    return false;
+  });
+  <!-- Go: Glossary -->
+  Mousetrap.bind('g g', function() {
+    window.location.href = 'glossary.html';
+    return false;
+  });
+  <!-- Go: Home -->
+  Mousetrap.bind('g h', function() {
+    window.location.href = 'index.html';
+    return false;
+  });
+  <!-- Go: Single Page Version -->
+  Mousetrap.bind('g s', function() {
+    window.location.href = 'all.html';
+    return false;
+  });
+
+  <!-- Go: Next Page
+  if (typeof next_page_url !== 'undefined') {
+    Mousetrap.bind('g n', function() {
+      window.location.href = next_page_url;
+      return false;
+    });
+    Mousetrap.bind('right', function() {
+      window.location.href = next_page_url;
+      return false;
+    });
+  }
+  <!-- Go: Previous Page
+  if (typeof prev_page_url !== 'undefined') {
+
+    Mousetrap.bind('g p', function() {
+      window.location.href = prev_page_url;
+      return false;
+    });
+    Mousetrap.bind('left', function() {
+      window.location.href = prev_page_url;
+      return false;
+    });
+  }
+</script>
+
+
+    <script>
+
+      function setAnnotationHref() {
+        document.getElementById("annotate-link").href = "https://via.hypothes.is/" + self.document.location.href;
+      }
+      function hideWhenAnnotating() {
+        if (typeof(wbinfo) !== "undefined") {
+          document.getElementById("annotate-span").style.visibility = 'hidden';
+        }
+      }
+      //setup annotations
+      function setupAnnotations() {
+        setAnnotationHref();
+        hideWhenAnnotating();
+      }
+
+      $(function() { 
+        // setup tooltips
+        $('[data-toggle="tooltip"]').tooltip({html: true, placement: 'bottom'})
+      
+        // setup prev and next navigation buttons
+        if (typeof next_page_url !== 'undefined') {
+              $("#next-page").attr("href", next_page_url);
+              $("#next-page").attr("title", next_page_title);
+              $("#icon-next").attr("title", next_page_title);
+        } else {
+          $("#next-page").hide()
+        }
+        if (typeof prev_page_url !== 'undefined') {
+              $("#prev-page").attr("href", prev_page_url);
+              $("#prev-page").attr("title", prev_page_title);
+              $("#icon-prev").attr("title", prev_page_title);
+        } else {
+          $("#prev-page").hide()
+        }
+        $('.post-content img').zoomify();
+      });
+  </script>
+  </body>
+</html>

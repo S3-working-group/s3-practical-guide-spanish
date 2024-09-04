@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Alinear el flujo</title>
+  <meta name="description" content="La descripción oficial de Sociocracia 3.0 - Todos los patrones, los Siete Principios y conceptos clave. Mantenida por Bernhard Bockelbrink, James Priest y Liliana David.
+">
+  <meta name="keywords" content="sociocracy, holacracy, s3, scrum, kanban, agile, lean">
+  <meta name="author" content="Bernhard Bockelbrink, James Priest, Liliana David"><link rel="canonical" href="http://localhost:4000/align-flow.html">
+  <link rel="alternate" type="application/rss+xml" title="Una guía práctica para la Sociocracia 3.0" href="http://localhost:4000/feed.xml">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/menu/sm-core-css-1.1.1.css">
+ 
+  <link rel="prev" href="/clarify-and-develop-strategy.html">
+  
+ 
+  <script type="text/javascript">
+  
+  var prev_page_url = "/clarify-and-develop-strategy.html";
+  var prev_page_title = "Clarificar y desarrollar la estrategia";
+  
+  
+  var next_page_url = "/create-a-pull-system-for-organizational-change.html";
+  var next_page_title = "Crea un sistema \"pull\" para el cambio organizacional";
+   
+  </script>
+</head>
+
+
+  <body onload="setupAnnotations();">
+    <header class="site-header container-fluid">
+      <div class="row">
+  <div class="header-title col-10">
+    <a class="site-title" href="/">Una guía práctica para la Sociocracia 3.0</a>
+  </div>
+  <div class="header-icons col-2">
+    <a href="/pattern-index.html" ><img src="/icons/list-ul.svg" class="icon" title="Un índice en orden alfabético de todos los patrones." alt="indice de patrones" /></a>
+    <a href="/map.html" ><img src="/icons/map.svg" class="icon" alt="mapa de patrones" title="Usa el mapa de patrones para saltar a otro patrón." /></a>
+    <span id="annotate-span"><a href="" id="annotate-link"><img src="/icons/comments-alt.svg" class="icon" title="Anota esta página con hypothes.is. Haz clic aquí, espere a que la página se vuelva a cargar, luego puedes resaltar texto y añadir comentarios públicos. Necesitarás configurar una cuenta gratuita en hypothes.is." alt="anota página" /></a></span>
+  </div>
+</div>
+
+    </header>
+    <div class="site-body container-fluid">
+      <div class="row">
+        <nav class="main-nav col">
+          <!-- Mobile menu toggle button (hamburger/x icon) -->
+<input id="main-menu-state" type="checkbox" />
+<label class="main-menu-btn" for="main-menu-state">
+  <span class="main-menu-btn-icon"></span> Cambiar la visibilidad del menú principal
+</label>
+<!-- the actual menu -->
+<ul id="main-menu" class="sm sm-mint sm-vertical">
+  <li><a href="index.html">Inicio</a></li>
+  
+    <li><a href="what-is-s3.html">¿Qué es la Sociocracia 3.0?</a>
+    <ul>
+      <li><a href="what-is-s3.html">¿Qué es la Sociocracia 3.0?</a></li>
+      <li><a href="how-does-s3-help.html">¿Cómo ayuda la Sociocracia 3.0?</a>
+      </li>
+      <li><a href="pattern.html">Un enfoque basado en patrones para el cambio organizacional</a>
+      </li>
+      <li><a href="contents.html">¿Qué hay en esta guía?</a>
+      </li>
+      <li><a href="history.html">Influencias e historia de la Sociocracia 3.0</a>
+      </li>
+      <li><a href="why-30.html">¿Por qué "3.0"?</a>
+      </li>
+    </ul>
+  </li>
+  <li><a href="principles.html">Los siete principios</a>
+    <ul>
+      <li><a href="principles.html">Los siete principios</a></li>
+      <li><a href="principle-effectiveness.html">El principio de efectividad</a>
+      </li>
+      <li><a href="principle-consent.html">El principio de consentimiento</a>
+      </li>
+      <li><a href="principle-empiricism.html">El principio de empirismo</a>
+      </li>
+      <li><a href="principle-continuous-improvement.html">El principio de mejora continua</a>
+      </li>
+      <li><a href="principle-equivalence.html">El principio de equivalencia</a>
+      </li>
+      <li><a href="principle-transparency.html">El principio de transparencia</a>
+      </li>
+      <li><a href="principle-accountability.html">Principio de responsabilidad</a>
+      </li>
+    </ul>
+  </li>
+  <li><a href="making-sense-of-organizations.html">Conceptos clave para comprender las organizaciones</a>
+    <ul>
+      <li><a href="making-sense-of-organizations.html">Conceptos clave para comprender las organizaciones</a></li>
+      <li><a href="driver.html">Drivers</a>
+      </li>
+      <li><a href="domain.html">Dominios</a>
+      </li>
+      <li><a href="objection.html">Objeciones</a>
+      </li>
+      <li><a href="agreement.html">Acuerdos</a>
+      </li>
+      <li><a href="governance.html">Gobernanza y operaciones</a>
+      </li>
+    </ul>
+  </li>
+  <li><a href="patterns.html">Los patrones</a>
+    <ul>
+      <li><a href="patterns.html">Los patrones</a></li>
+      <li><a href="sense-making-and-decision-making.html">Producción de sentido y toma de decisiones</a>
+        <ul>
+          <li><a href="sense-making-and-decision-making.html">Producción de sentido y toma de decisiones</a></li>
+          <li><a href="respond-to-organizational-drivers.html">Responder a drivers organizacionales</a>
+          </li>
+          <li><a href="navigate-via-tension.html">Navegar a través de la tensión</a>
+          </li>
+          <li><a href="describe-organizational-drivers.html">Describe los Drivers Organizacionales</a>
+          </li>
+          <li><a href="consent-decision-making.html">Toma de decisiones por consentimiento</a>
+          </li>
+          <li><a href="test-arguments-qualify-as-objections.html">Comprobar si los argumentos califican como objeciones</a>
+          </li>
+          <li><a href="resolve-objections.html">Resolver objeciones</a>
+          </li>
+          <li><a href="evaluate-and-evolve-agreements.html">Evaluar y evolucionar acuerdos</a>
+          </li>
+          <li><a href="co-create-proposals.html">Cocrear propuestas</a>
+          </li>
+          <li><a href="proposal-forming.html">Formación de una propuesta</a>
+          </li>
+          <li><a href="reasoned-decision-making.html">Toma de decisiones razonada</a>
+          </li>
+          <li><a href="role-selection.html">Selección de rol</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="evolving-organizations.html">Evolucionando organizaciones</a>
+        <ul>
+          <li><a href="evolving-organizations.html">Evolucionando organizaciones</a></li>
+          <li><a href="clarify-and-develop-domains.html">Clarificar y desarrollar dominios</a>
+          </li>
+          <li><a href="delegate-influence.html">Delegar influencia</a>
+          </li>
+          <li><a href="clarify-and-develop-strategy.html">Clarificar y desarrollar la estrategia</a>
+          </li>
+          <li><a href="align-flow.html">Alinear el flujo</a>
+          </li>
+          <li><a href="create-a-pull-system-for-organizational-change.html">Crea un sistema "pull" para el cambio organizacional</a>
+          </li>
+          <li><a href="driver-mapping.html">Mapeo de drivers</a>
+          </li>
+          <li><a href="open-systems.html">Sistemas Abiertos</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="peer-development.html">Desarrollo entre iguales</a>
+        <ul>
+          <li><a href="peer-development.html">Desarrollo entre iguales</a></li>
+          <li><a href="ask-for-help.html">Solicitar ayuda</a>
+          </li>
+          <li><a href="peer-feedback.html">Retroalimentación entre iguales</a>
+          </li>
+          <li><a href="peer-review.html">Revisión por pares</a>
+          </li>
+          <li><a href="development-plan.html">Plan de Desarrollo</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="enablers-of-co-creation.html">Habilitadores de cocreación</a>
+        <ul>
+          <li><a href="enablers-of-co-creation.html">Habilitadores de cocreación</a></li>
+          <li><a href="artful-participation.html">Participación creativa</a>
+          </li>
+          <li><a href="adopt-the-seven-principles.html">Adoptar los Siete Principios</a>
+          </li>
+          <li><a href="agree-on-values.html">Acordar los valores</a>
+          </li>
+          <li><a href="involve-those-affected.html">Involucra a los afectados</a>
+          </li>
+          <li><a href="breaking-agreements.html">Rompiendo acuerdos</a>
+          </li>
+          <li><a href="transparent-salary.html">Remuneración transparente</a>
+          </li>
+          <li><a href="contract-for-successful-collaboration.html">Contrato para una colaboración exitosa</a>
+          </li>
+          <li><a href="support-role.html">Rol de apoyo</a>
+          </li>
+          <li><a href="bylaws.html">Reglamentos</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="building-organizations.html">Construyendo Organizaciones</a>
+        <ul>
+          <li><a href="building-organizations.html">Construyendo Organizaciones</a></li>
+          <li><a href="circle.html">Círculo</a>
+          </li>
+          <li><a href="role.html">Rol</a>
+          </li>
+          <li><a href="linking.html">Vinculación</a>
+          </li>
+          <li><a href="double-linking.html">Doble Enlace</a>
+          </li>
+          <li><a href="representative.html">Representantes</a>
+          </li>
+          <li><a href="open-team.html">Equipo abierto</a>
+          </li>
+          <li><a href="helping-team.html">Equipo de ayuda</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="bringing-in-s3.html">Integrar la S3</a>
+        <ul>
+          <li><a href="bringing-in-s3.html">Integrar la S3</a></li>
+          <li><a href="adapt-patterns-to-context.html">Adaptar los patrones al contexto</a>
+          </li>
+          <li><a href="be-the-change.html">Sé el cambio</a>
+          </li>
+          <li><a href="invite-change.html">Invita al cambio</a>
+          </li>
+          <li><a href="open-space-for-change.html">"Espacio abierto" para el cambio</a>
+          </li>
+          <li><a href="continuous-improvement-of-work-process.html">Mejora continua del proceso de trabajo</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="defining-agreements.html">Definiendo acuerdos</a>
+        <ul>
+          <li><a href="defining-agreements.html">Definiendo acuerdos</a></li>
+          <li><a href="record-agreements.html">Registrar los acuerdos</a>
+          </li>
+          <li><a href="clarify-intended-outcome.html">Clarificar el resultado pretendido</a>
+          </li>
+          <li><a href="describe-deliverables.html">Describe los entregables</a>
+          </li>
+          <li><a href="evaluation-criteria.html">Criterios de evaluación</a>
+          </li>
+          <li><a href="logbook.html">Bitácora</a>
+          </li>
+          <li><a href="logbook-keeper.html">Guardián de la bitácora</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="meeting-formats.html">Formatos de reunión</a>
+        <ul>
+          <li><a href="meeting-formats.html">Formatos de reunión</a></li>
+          <li><a href="retrospective.html">Retrospectiva</a>
+          </li>
+          <li><a href="governance-meeting.html">Reunión de gobernanza</a>
+          </li>
+          <li><a href="daily-standup.html">Reunión diaria</a>
+          </li>
+          <li><a href="planning-and-review-meetings.html">Reuniones de planificación y revisión</a>
+          </li>
+          <li><a href="coordination-meeting.html">Reunión de coordinación</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="meeting-practices.html">Prácticas de reunión</a>
+        <ul>
+          <li><a href="meeting-practices.html">Prácticas de reunión</a></li>
+          <li><a href="rounds.html">Rondas</a>
+          </li>
+          <li><a href="facilitate-meetings.html">Facilitar reuniones</a>
+          </li>
+          <li><a href="prepare-for-meetings.html">Preparación para reuniones</a>
+          </li>
+          <li><a href="check-in.html">Check in</a>
+          </li>
+          <li><a href="evaluate-meetings.html">Evaluar reuniones</a>
+          </li>
+          <li><a href="meeting-host.html">Organizador de reuniones</a>
+          </li>
+          <li><a href="governance-facilitator.html">Persona facilitadora de gobernanza</a>
+          </li>
+          <li><a href="governance-backlog.html">Agenda de pendientes de gobernanza </a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="organizing-work.html">Organización del trabajo</a>
+        <ul>
+          <li><a href="organizing-work.html">Organización del trabajo</a></li>
+          <li><a href="backlog.html">Agenda de asuntos pendientes</a>
+          </li>
+          <li><a href="prioritize-backlogs.html">Priorizar la agenda de asuntos pendientes</a>
+          </li>
+          <li><a href="visualize-work.html">Visualizar el trabajo</a>
+          </li>
+          <li><a href="pull-system-for-work.html">Sistema de trabajo pull</a>
+          </li>
+          <li><a href="limit-work-in-progress.html">Limitar el trabajo en curso</a>
+          </li>
+          <li><a href="timebox-activities.html">Timebox Activities</a>
+          </li>
+          <li><a href="coordinator.html">Coordinador</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="organizational-structure.html">Estructura organizacional</a>
+        <ul>
+          <li><a href="organizational-structure.html">Estructura organizacional</a></li>
+          <li><a href="delegate-circle.html">Círculo de delegados</a>
+          </li>
+          <li><a href="service-circle.html">Círculo de servicio</a>
+          </li>
+          <li><a href="peach-organization.html">Organización Peach</a>
+          </li>
+          <li><a href="double-linked-hierarchy.html">Jerarquía de doble enlace</a>
+          </li>
+          <li><a href="service-organization.html">Organización de servicios</a>
+          </li>
+          <li><a href="fractal-organization.html">Organización Fractal</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="csf.html">Un marco de sentido común para organizaciones y equipos</a>
+    <ul>
+      <li><a href="csf.html">Un marco de sentido común para organizaciones y equipos</a></li>
+      <li><a href="thrive.html">Una organización donde TANTO las personas COMO la organización puedan tener éxito</a>
+      </li>
+      <li><a href="ten-principles.html">Diez principios para equipos y organizaciones en evolución</a>
+      </li>
+      <li><a href="orientation.html">Dos principios para la orientación</a>
+        <ul>
+          <li><a href="orientation.html">Dos principios para la orientación</a></li>
+          <li><a href="clarify-purpose.html">Principio 1 – Clarificar el propósito</a>
+          </li>
+          <li><a href="develop-strategy.html">Principio 2 – Desarrollar la estrategia</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="navigation.html">Tres principios para la navegación</a>
+        <ul>
+          <li><a href="navigation.html">Tres principios para la navegación</a></li>
+          <li><a href="focus-on-value.html">Principio 3 – Foco en el valor</a>
+          </li>
+          <li><a href="sense-respond.html">Principio 4 – Siente y responde</a>
+          </li>
+          <li><a href="run-experiments.html">Principio 5 – Realizar Experimentos</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="structure.html">Dos principios para la estructura</a>
+        <ul>
+          <li><a href="structure.html">Dos principios para la estructura</a></li>
+          <li><a href="enable-autonomy.html">Principio 6 – Habilitar la autonomía</a>
+          </li>
+          <li><a href="collaborate-on-dependencies.html">Principio 7 – Colaboración en dependencias</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="transformation.html">Tres principios para la transformación</a>
+        <ul>
+          <li><a href="transformation.html">Tres principios para la transformación</a></li>
+          <li><a href="invest-in-learning.html">Principio 8 – Invertir en aprendizaje</a>
+          </li>
+          <li><a href="develop-culture.html">Principio 9 – Desarrollar intencionadamente la cultura</a>
+          </li>
+          <li><a href="shared-mental-models.html">Principio 10 – Crear modelos mentales compartidos</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="where-to-start.html">¿Por dónde empezar?</a>
+      </li>
+    </ul>
+  </li>
+  <li><a href="appendix.html">Apéndice</a>
+    <ul>
+      <li><a href="appendix.html">Apéndice</a></li>
+      <li><a href="changelog.html"></a>
+      </li>
+      <li><a href="pattern-index.html">Orden alfabético de todos los patrones</a>
+      </li>
+      <li><a href="links.html">Enlaces</a>
+      </li>
+      <li><a href="license.html">Licencia</a>
+      </li>
+      <li><a href="disclaimer.html">Aviso legal</a>
+      </li>
+      <li><a href="icpt.html">El Compromiso intencional para practicantes y maestros de Sociocracia 3.0 (CIPM)</a>
+      </li>
+      <li><a href="acknowledgments.html">Agradecimientos</a>
+      </li>
+      <li><a href="authors.html">Autores</a>
+      </li>
+      <li><a href="glossary.html">Glosario</a>
+      </li>
+    </ul>
+  </li>
+  
+  <li><a href="#">Enlaces directos</a>
+    <ul class="mega-menu">
+      <li><a href="/index.html">Página principal</a></li>
+      <li><a href="/glossary.html">Glosario</a></li>
+      <li><a href="/changelog.html"></a></li>
+      <li><a href="/pattern-index.html" title="Un índice en orden alfabético de todos los patrones."><img src="/icons/list-ul.svg" class="icon" alt="site index" />&nbsp;Indice de Patrones</a></li>
+      <li><a href="/map.html" title="Usa el mapa de patrones para saltar a otro patrón."><img src="/icons/map.svg" class="icon" alt="site map" />&nbsp;Mapa</a></li>
+      <li><span id="annotate-span"><a href="" id="annotate-link" title="Anota esta página con hypothes.is. Haz clic aquí, espera a que la página se vuelva a cargar, luego puedes resaltar texto y añadir comentarios públicos. Necesitarás configurar una cuenta gratuita en hypothes.is."><img src="/icons/comments-alt.svg" class="icon" alt="annotate page" />&nbsp;Anota la página</a></span></li>
+      <li><a href="https://sociocracy30.org/resources/#se-practical-guide">Descargas</a></li>
+      <li><a href="https://sociocracy30.org">Sitio de Sociocracia 3.0</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+        </nav>
+        <div class="content-container col">
+          <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Alinear el flujo</h1>
+  </header>
+
+  <div class="post-content" markdown="1">
+    <div class="card summary"><div class="card-body">Para apoyar el flujo continuo de valor, acerca la toma de decisiones a donde se crea el valor y alinea el flujo de información correspondientemente.
+</div></div>
+
+<p><strong>Flujo de valor:</strong> Entregables viajando a través de una organización hacia clientes u otras partes interesadas.</p>
+
+<p>Alcanza y mantiene la alineación del flujo a través de la continua evolución del conjunto de <a href="glossary.html#entry-agreement" class="glossary-tooltip" data-toggle="tooltip" title="Acuerdo: Una pauta, proceso, protocolo o política que ha sido acordado y se ha diseñado para guiar el flujo de valor.">acuerdos</a> de una organización:</p>
+
+<ul>
+  <li>asegúrate de que todas las decisiones que afectan al flujo de valor realmente apoyan el flujo de valor</li>
+  <li>permite a las personas con habilidades y conocimientos relevantes influir en las decisiones</li>
+  <li>pon a disposición cualquier información útil</li>
+  <li>intenta acortar los ciclos de retroalimentación para amplificar el aprendizaje.</li>
+</ul>
+
+<p>Cuando la toma de decisiones se lleva a cabo cerca de donde se crea el valor, y el flujo de información apoya el flujo continuo y constante de valor, se reduce el potencial de acumulación de desperdicios.</p>
+
+<p><img src="img/workflow-and-value/align-flow.png" alt="Alineando el flujo de información para apoyar el flujo de valor" /></p>
+
+  </div>
+
+  <div class="bottom-nav">
+
+    
+    <a href="/clarify-and-develop-strategy.html" class="navigation navigation-prev" id="prev-page" title="Clarificar y desarrollar la estrategia"><img src="/icons/angle-left-b.svg" height="40px" class="icon navicon icon-prev" title="Clarificar y desarrollar la estrategia" /></a>
+    
+    
+    <a href="/create-a-pull-system-for-organizational-change.html}}" class="navigation navigation-next " id="next-page" title="Crea un sistema "pull" para el cambio organizacional"><img src="/icons/angle-right-b.svg" height="40px" class="icon navicon icon-next" title="Crea un sistema "pull" para el cambio organizacional" />Read next: Crea un sistema "pull" para el cambio organizacional</a>
+    
+  </div>
+</article>
+
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer container-fluid">
+      <div class="row">
+  <div class="col footer-top">
+    <p>Esta obra de Bernhard Bockelbrink, James Priest y Liliana David está bajo la <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+    <p>Lea esta página en <a href="https://patterns.sociocracy30.org/align-flow.html">Inglés</a> | <a href="https://patterns-de.sociocracy30.org/align-flow.html">Alemán</a> | <a href="https://patterns-fr.sociocracy30.org/align-flow.html">Francés</a> | <a href="https://patterns-nl.sociocracy30.org/align-flow.html">Holandés</a> | <a href="https://patterns-he.sociocracy30.org/align-flow.html">Hebreo</a></p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-8">
+    <p><a href="https://sociocracy30.org/contact/">Contáctenos</a> | <a href="disclaimer.html">Aviso de responsabilidad</a> | <a href="acknowledgments.html">Agradecimientos</a></p>
+    <p class="hp-version">v2024-04-18-es-0.01</p>
+  </div>
+  <div class="footer-col-bottom-right col-sm-4">
+    <ul class="social-media-list">
+      <li><a href="https://sociocracy30.org">Sitio Sociocracia 3.0</a></li>
+      
+      <li>
+        <a href="https://twitter.com/sociocracy30"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">sociocracy30</span></a>
+
+      </li>
+      
+      
+      <li><a href="https://github.com/S3-working-group/s3-practical-guide-spanish">Fork en GitHub</a></li>
+    </ul>
+  </div>
+</div>
+    </footer>
+
+    <script type="text/javascript" src="/js/jquery-3.5.1.min.js "></script>
+    <script type="text/javascript" src="/js/popper-1.16.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap-4.6.2.min.js"></script>
+    <script type="text/javascript" src="/js/mousetrap-1.6.5.min.js"></script>
+    <script type="text/javascript" src="/js/zoomify-0.2.5.min.js"></script>
+    <script type="text/javascript" src="/menu/jquery.smartmenus-1.1.1.min.js"></script>
+<script type="text/javascript" src="/menu/jquery.smartmenus.keyboard-0.4.0.min.js"></script>
+
+<script type="text/javascript">
+  $(function() {
+    $('#main-menu').smartmenus({
+      subMenusSubOffsetX: 6,
+      subMenusSubOffsetY: -8
+    });
+    $('#main-menu').smartmenus('keyboardSetHotkey', 77, 'shiftKey');
+  });
+</script>
+
+    <script type="text/javascript">
+  <!-- Go Map -->
+  Mousetrap.bind('g m', function() {
+    window.location.href = 'map.html';
+    return false;
+  });
+  <!-- Go: (Pattern) Index -->
+  Mousetrap.bind('g i', function() {
+    window.location.href = 'pattern-index.html';
+    return false;
+  });
+  <!-- Go: Changelog -->
+  Mousetrap.bind('g c', function() {
+    window.location.href = 'changelog.html';
+    return false;
+  });
+  <!-- Go: Glossary -->
+  Mousetrap.bind('g g', function() {
+    window.location.href = 'glossary.html';
+    return false;
+  });
+  <!-- Go: Home -->
+  Mousetrap.bind('g h', function() {
+    window.location.href = 'index.html';
+    return false;
+  });
+  <!-- Go: Single Page Version -->
+  Mousetrap.bind('g s', function() {
+    window.location.href = 'all.html';
+    return false;
+  });
+
+  <!-- Go: Next Page
+  if (typeof next_page_url !== 'undefined') {
+    Mousetrap.bind('g n', function() {
+      window.location.href = next_page_url;
+      return false;
+    });
+    Mousetrap.bind('right', function() {
+      window.location.href = next_page_url;
+      return false;
+    });
+  }
+  <!-- Go: Previous Page
+  if (typeof prev_page_url !== 'undefined') {
+
+    Mousetrap.bind('g p', function() {
+      window.location.href = prev_page_url;
+      return false;
+    });
+    Mousetrap.bind('left', function() {
+      window.location.href = prev_page_url;
+      return false;
+    });
+  }
+</script>
+
+
+    <script>
+
+      function setAnnotationHref() {
+        document.getElementById("annotate-link").href = "https://via.hypothes.is/" + self.document.location.href;
+      }
+      function hideWhenAnnotating() {
+        if (typeof(wbinfo) !== "undefined") {
+          document.getElementById("annotate-span").style.visibility = 'hidden';
+        }
+      }
+      //setup annotations
+      function setupAnnotations() {
+        setAnnotationHref();
+        hideWhenAnnotating();
+      }
+
+      $(function() { 
+        // setup tooltips
+        $('[data-toggle="tooltip"]').tooltip({html: true, placement: 'bottom'})
+      
+        // setup prev and next navigation buttons
+        if (typeof next_page_url !== 'undefined') {
+              $("#next-page").attr("href", next_page_url);
+              $("#next-page").attr("title", next_page_title);
+              $("#icon-next").attr("title", next_page_title);
+        } else {
+          $("#next-page").hide()
+        }
+        if (typeof prev_page_url !== 'undefined') {
+              $("#prev-page").attr("href", prev_page_url);
+              $("#prev-page").attr("title", prev_page_title);
+              $("#icon-prev").attr("title", prev_page_title);
+        } else {
+          $("#prev-page").hide()
+        }
+        $('.post-content img').zoomify();
+      });
+  </script>
+  </body>
+</html>
